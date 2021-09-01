@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&family=Raleway:wght@100&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: Raleway;
+  color: black;
+}
+
+html,
+body {
+  background-color: white;
+  margin: 0;
+}
+
+body {
+  font-family: arial, helvetica, serif;
+}
+
+.main-header {
+  background-color: rgba(212, 209, 209, 0.5);
+  background-image: url(../images/backgroundimage5.jpeg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+
+.header-logo {
+  padding-left: 7.6%;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 0.7em;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.main-nav {
+  display: block;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  border-bottom: 1px, rgba(255, 255, 255, 0.6);
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.about-section {
+  display: block;
+  text-align: center;
+  width: 750px;
+  height: auto;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+.header2 {
+  text-align: center;
+  font-size: 2.1em;
+  font-weight: bolder;
+}
+
+.imghome1 {
+  float: left;
+  height: 300px;
+  width: 275px;
+  margin: 50px 50px 50px 0;
+  border-radius: 50%;
+}
+
+.about-paragraph {
+  text-align: center;
+  color: black;
+  width: 700px;
+}
+
+.imghome2 {
+  float: right;
+  height: 300px;
+  width: 275px;
+  margin: 50px 0 50px 50px;
+  border-radius: 50%;
+}
+
+.form-container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10%;
+  border: 1px solid black;
+}
+
+.main-footer {
+  display: block;
+  border-top: 1px solid black;
+  background-image: url(../images/backgroundimage5.jpeg);
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+a img {
+  display: inline-block;
+  text-align: center;
+  height: 55px;
+  width: 55px;
+  margin-left: 50px;
+  margin-bottom; 50px;
+}
+
+.footer-logo {
+  padding-left: 7.6%;
+  display: inline-block;
+}
